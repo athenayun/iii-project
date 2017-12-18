@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang=zh>
+    
+    <head>
+        
+        <meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<title>Face Recognition Upload</title>
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/component_header.css">
+        <link rel="stylesheet" type="text/css" href="css/demo.css" />
+		
+        
+		<link rel="stylesheet" href="css/ir_upload_css.css">
+        
+        <script src="http://code.jquery.com/jquery-1.11.3.min.js" integrity="sha256-7LkWEzqTdpEfELxcZZlS6wAx5Ff13zZ83lYO2/ujj7g=" crossorigin="anonymous"></script>
+        <script src="js/bootstrap.min.js"></script>
+
+  		
+        <script src="js/modernizr.custom.js"></script>
+        
+    </head>
+    
+    <body>
+        
+        <div class="container">
+        
+            <header id="ha-header" class="ha-header ha-header-large">
+                <div class="ha-header-perspective">
+					<div class="ha-header-front">
+						<h1><span>Upload Your Photo</span></h1>
+						<nav>
+							<a href="index.html">&lsaquo; Back To Home</a>
+							<a href="product.html">Select Products</a>
+							<a href="ir_upload.html">Face Recognition</a>
+							<a href="https://google.com">Go to Google haha</a>
+						</nav>
+					</div>
+					
+				</div>
+            
+            </header>
+            
+            <div class="form-position">
+                <form action="upload.php" method="post" enctype="multipart/form-data" >
+                    Select image to upload:
+                    <input type="file" name="fileToUpload" id="fileToUpload">
+                    <input type="submit" value="Upload Image" name="submit">
+                </form>
+            </div>
+            
+            <div class="table-position">
+					
+					<table class="table pro_display">
+                        <thead>
+                        </thead>
+                        <tbody>
+                            
+                            <tr>
+                                
+                                <td rowspan="3" class="pro_pic"><img src="{{product1.pro_pic}}"></td>
+                                <td class="col_name">Brand :</td>
+                                <td class="data"></td>
+                                
+                                
+                                
+                                
+                            </tr>
+                            
+                            <tr>
+                                <td class="col_name">Name :</td>
+                                <td class="data">none</td>
+                            </tr>
+
+                            <tr>
+                                <td class="col_name">Price :</td>
+                                <td class="data">none</td>
+                            </tr>
+                            
+
+                            <tr>
+                                <td rowspan="3" class="pro_pic">pic</td>
+                                <td class="col_name">Brand :</td>
+                                <td class="data">none</td>
+                            </tr>
+                                
+                            <tr>
+                                <td class="col_name">Name :</td>
+                                <td class="data">none</td>
+                            </tr>
+    
+                            <tr>
+                                <td class="col_name">Price :</td>
+                                <td class="data">none</td>
+                            </tr>
+
+                            <tr>
+                                <td rowspan="5" class="pro_pic">pic</td>
+                                <td class="col_name">Brand :</td>
+                                <td class="data">none</td>
+                            </tr>
+                                    
+                            <tr>
+                                <td class="col_name">Name :</td>
+                                <td class="data">none</td>
+                            </tr>
+        
+                            <tr>
+                                <td class="col_name">Price :</td>
+                                <td class="data">none</td>
+                            </tr>
+                            
+                            <tr>
+                                <td class="col_name">Color :</td>
+                                <td class="data">
+                                    none
+                                    <div id="color_block" style="background-color:{{}}"></div>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td class="col_name"></td>
+                                <td class="data">
+                                        
+                                </td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            
+            
+        </div>
+    </body>
+    
+    
+</html>

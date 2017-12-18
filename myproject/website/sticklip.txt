@@ -1,0 +1,61 @@
+from colour import Color 
+import random
+import json
+
+def sticklip(res,address):
+    with open('{}/quenbaobangbang.json'.format(address),'r') as f:
+        a = json.load(f)
+
+    with open('{}/pro_info.json'.format(address),'r') as f:
+        b = json.load(f)
+    
+    if res == 9 or res == 7:
+        items = {}
+        sugge = random.sample(a['厚唇'],1)
+        for item in sugge:
+            tt = item.replace(']',")").replace("[","(").replace(',',', ')
+            items['id_product'] = b[tt][3]
+
+    elif res == 5 or res == 8:
+        items = {}
+        sugge = random.sample(a['大嘴上薄下厚'],1)
+        for item in sugge:
+            tt = item.replace(']',")").replace("[","(").replace(',',', ')
+            items['id_product'] = b[tt][3]
+
+    elif res == 3 or res == 6:
+        items = {}
+        sugge = random.sample(a['大嘴'],1)
+        for item in sugge:
+            tt = item.replace(']',")").replace("[","(").replace(',',', ')
+            items['id_product'] = b[tt][3]
+
+    elif res == 0:
+        items = {}
+        sugge = random.sample(a['小嘴厚唇'],1)
+        for item in sugge:
+            tt = item.replace(']',")").replace("[","(").replace(',',', ')
+            items['id_product'] = b[tt][3]
+
+    elif res == 1:
+        items = {}
+        sugge = random.sample(a['薄唇'],1)
+        for item in sugge:
+            tt = item.replace(']',")").replace("[","(").replace(',',', ')
+            items['id_product'] = b[tt][3]
+
+    elif res == 2:
+        items = {}
+        sugge = random.sample(a['上薄下厚'],1)
+        for item in sugge:
+            tt = item.replace(']',")").replace("[","(").replace(',',', ')
+            items['id_product'] = b[tt][3]
+
+    elif res == 4:
+        items = {}
+        sugge = random.sample(a['小嘴上薄下厚'],1)
+        for item in sugge:
+            tt = item.replace(']',")").replace("[","(").replace(',',', ')
+            items['id_product'] = b[tt][3]
+    
+    return items

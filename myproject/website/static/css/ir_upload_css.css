@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+
+
+body{
+    background-image: url(../src/grid_DominikKiss_SubtlePatterns.jpg);
+    
+}
+
+.container{
+    position: relative;
+}
+
+.button-position{
+    
+    
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.table-position{
+    position: absolute;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    top:800px;
+
+}
+
+
+.pro_display{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em, 0em, 5em;
+    vertical-align: middle;
+}
+
+
+.pro_pic{
+    
+    padding: 1em;
+    
+    height: 300px;
+    width: 300px;
+    font-family: 'Slabo 27px', serif;
+    color: darkblue;
+    max-height: 300px;
+    max-width: 300px;
+}
+
+
+
+.col_name{
+    color: darkblue;
+    font-size: 2em;
+    font-family: 'Slabo 27px', serif;
+    width: 150px;
+}
+
+
+.form-position{
+    display: block;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    top: 400px;
+    font-family: 'Slabo 27px', serif;
+    font-size: 4em;
+    color: darkblue;
+    
+}
+
+.data{
+    font-size: 1.5em;
+    color: black;
+    font-family: 'Slabo 27px', serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    
+}
+
+#color_block{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    margin-right: auto;
+    /*background-color: forestgreen;  for testing*/
+    vertical-align: middle;
+}
+
+
+#lip-product{
+    padding: 1em;
+    
+    height: 300px;
+    width: 300px;
+    font-family: 'Slabo 27px', serif;
+    color: darkblue;
+    max-height: 300px;
+    max-width: 300px; 
+}

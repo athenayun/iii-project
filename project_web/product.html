@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<title>Product Suggestion</title>
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/component_header.css">
+        <link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/style3.css" />
+        <link rel="stylesheet" type="text/css" href="css/dropdown_style2.css">
+		<link rel="stylesheet" href="css/product_css.css">
+        
+        <script src="http://code.jquery.com/jquery-1.11.3.min.js" integrity="sha256-7LkWEzqTdpEfELxcZZlS6wAx5Ff13zZ83lYO2/ujj7g=" crossorigin="anonymous"></script>
+        <script src="js/bootstrap.min.js"></script>
+
+  		
+        <script src="js/modernizr.custom.js"></script>
+        
+
+        
+	</head>
+	<body>
+		
+        
+        <div class="container">
+            
+            <header id="ha-header" class="ha-header ha-header-large">
+                <div class="ha-header-perspective">
+					<div class="ha-header-front">
+						<h1><span>Products</span></h1>
+						<nav>
+							<a href="index.html">&lsaquo; Back To Home</a>
+							<a href="product.html">Select Products</a>
+							<a href="ir_upload.html">Face Recognition</a>
+							<a href="https://google.com">Go to Google haha</a>
+						</nav>
+					</div>
+					
+				</div>
+            
+            </header>
+			
+            
+            <!--<section >
+				<div class="button-position">
+                    <p><button id="trigger-overlay" type="button">Select Product</button></p>
+                </div>
+			</section> -->
+			
+            <section class="main clearfix">
+				<div class="fleft">
+					<p>藉由選擇你喜好的條件，讓我們來推薦你適合的商品吧!</p>
+				</div>
+				<div class="fleft">
+					<select id="cd-dropdown" class="cd-select" name="classification">
+						<option value="-1" selected>選擇你想要的產品種類</option>
+						<option value="1" class="icon-google-plus">眼線筆</option>
+						<option value="2" class="icon-facebook">眉筆</option>
+						<option value="3" class="icon-twitter">粉底液</option>
+						<option value="4" class="icon-github">唇膏</option>
+					</select>
+				</div>
+                
+                
+				<div class="fleft">
+					<select id="cd-dropdown" class="cd-select">
+						<option value="-1" selected>選擇你想要的產品價格區間</option>
+						<option value="1" class="icon-google-plus">高</option>
+						<option value="2" class="icon-facebook">中</option>
+						<option value="3" class="icon-twitter">低</option>
+						
+					</select>
+				</div>
+                <div class="fleft">
+					<p>藉由選擇你喜好的條件，讓我們來推薦你適合的商品吧!</p>
+				</div>
+                
+                <div class="fleft">
+					<select id="cd-dropdown" class="cd-select" name="effect">
+						<option value="-1" selected>選擇你想要的產品價格區間</option>
+						<option value="1" class="icon-google-plus">上色度</option>
+						<option value="2" class="icon-facebook">保濕度</option>
+						<option value="3" class="icon-twitter">持久度</option>
+						<option value="4" class="icon-twitter">推勻度</option>
+						<option value="5" class="icon-twitter">防水度</option>
+						<option value="6" class="icon-twitter">顯色度</option>
+						<option value="7" class="icon-twitter">自然度</option>
+						<option value="8" class="icon-twitter">透亮度</option>
+						<option value="9" class="icon-twitter">飽和度</option>
+						<option value="10" class="icon-twitter">遮瑕度</option>
+						<option value="11" class="icon-twitter">服貼度</option>
+						<option value="12" class="icon-twitter">清爽度</option>
+						
+					</select>
+				</div>
+                
+                
+                
+			</section>
+            
+            <section class="ha-waypoint" data-animate-down="ha-header-large" data-animate-up="ha-header-large">
+                <div class="table-position">
+                    <table class="table pro_display">
+                        <thead>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td rowspan="4" id="pro_pic">picture</td>
+                                <td class="col_name">Brand : </td>
+                                <td class="data">NONE</td>
+                            </tr>
+                            <tr>
+                                <td class="col_name">Name : </td>
+                                <td class="data">NONE</td>
+                            </tr>
+                            <tr>
+                                <td class="col_name">Price : </td>
+                                <td class="data">NONE</td>
+                            </tr>
+                            <tr>
+                                <td class="col_name">Color : </td>
+                                <td id="pro_color">NONE</td>
+                            </tr>
+                            
+                            
+                        </tbody>
+                    </table>
+                    
+                    
+                    
+                </div>
+                
+                <div class="table-position-2">
+                    <table class="table pro_display">
+                        <thead>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="pro_pic_2"><img src="">pic1</td>
+                                <td class="pro_pic_2"><img src="">pic2</td>
+                                <td class="pro_pic_2"><img src="">pic3</td>
+                            </tr>
+                            <tr>
+                                <td class="pro_name">pro1</td>
+                                <td class="pro_name">pro2</td>
+                                <td class="pro_name">pro3</td>
+                            </tr>
+                            
+                            
+                        </tbody>
+                    </table>
+                    
+                    
+                    
+                </div>
+                
+            </section>
+            
+		</div>
+		<div class="overlay overlay-slidedown">
+			<!--<button type="button" class="overlay-close ">
+                
+                Close
+            </button> -->
+			
+            <div class="fleft">
+					<p>In this example we use a gutter of 5, stack the items with a slight offset, and expand them with a slight random angle/left values. Each item will have a different animation delay.</p>
+				</div>
+				<div class="fleft">
+					<select id="cd-dropdown" class="cd-select">
+						<option value="-1" selected>Choose a network to add</option>
+						<option value="1" class="icon-google-plus">Google Plus</option>
+						<option value="2" class="icon-facebook">Facebook</option>
+						<option value="3" class="icon-twitter">Twitter</option>
+						<option value="4" class="icon-github">GitHub</option>
+					</select>
+				</div>
+            
+		</div>
+		<script src="js/classie.js"></script>
+		<script src="js/demo1.js"></script>
+        <script src="js/waypoints.min.js"></script>
+        <script>
+			var $head = $( '#ha-header' );
+			$( '.ha-waypoint' ).each( function(i) {
+				var $el = $( this ),
+					animClassDown = $el.data( 'animateDown' ),
+					animClassUp = $el.data( 'animateUp' );
+
+				$el.waypoint( function( direction ) {
+					if( direction === 'down' && animClassDown ) {
+						$head.attr('class', 'ha-header ' + animClassDown);
+					}
+					else if( direction === 'up' && animClassUp ){
+						$head.attr('class', 'ha-header ' + animClassUp);
+					}
+				}, { offset: '100%' } );
+			} );
+		</script>
+        
+        <script type="text/javascript" src="js/jquery.dropdown.js"></script>
+		<script type="text/javascript">
+			
+			$( function() {
+				
+				$( '#cd-dropdown' ).dropdown( {
+					gutter : 5,
+					delay : 100,
+					random : true
+				} );
+			});
+		</script>
+        
+	</body>
+</html>

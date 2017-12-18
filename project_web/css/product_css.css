@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+
+
+body{
+    background-image: url(/src/grid_DominikKiss_SubtlePatterns.jpg);
+    
+}
+
+/*.container{
+    position: relative;
+}*/
+
+.button-position{
+    
+    
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.table-position{
+    position: absolute;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    left: 800px;
+}
+
+
+.pro_display{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em, 0em, 5em;
+}
+
+
+#pro_pic{
+    
+    padding: 1em;
+    
+    height: 500px;
+    width: 500px;
+    font-family: 'Slabo 27px', serif;
+    color: darkblue;
+}
+
+
+
+.col_name{
+    color: darkblue;
+    font-size: 2em;
+    font-family: 'Slabo 27px', serif;
+}
+
+.table-position-2{
+    position: absolute;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    left:800px;
+    top:1600px;
+}
+
+.pro_pic_2{
+    
+    padding: 1em;
+    height: 300px;
+    width: 300px;
+    font-family: 'Slabo 27px', serif;
+    color: darkblue;
+}
+
+.pro_name{
+    color: darkblue;
+    font-size: 1em;
+    font-family: 'Slabo 27px', serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: auto;
+}
+
+.data{
+    color: black;
+    font-size: 1.4em;
+}

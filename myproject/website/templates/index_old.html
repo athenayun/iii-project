@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+
+<html lang="zh">
+    
+    <head>
+        
+        
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <title>Naive To Profession</title>      
+
+        
+        
+        
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/normalize.css">
+        
+        <link rel="stylesheet" href="css/component.css">
+        <link rel="stylesheet" href="css/base.css">
+        
+        <link rel="stylesheet" href="css/dropdown_style2.css">
+        <!--[if lt IE 9]>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+        
+        
+        
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        
+        <script type="text/javascript" src="js/modernizr.custom.63321.js"></script>
+        
+        <script type="text/javascript" src="js/js.cookie.js"></script>
+        <script src="js/index_page.js"></script>   
+            
+        
+    </head>
+    
+    <body onload="init()" style="overflow: auto; height: auto; visibility: visible;">
+        
+        <div id="container container_sp" class="container intro-effect-fadeout">
+            
+            <div id="first_content_wrapper">
+                
+                <div id="loader-bg">
+                    <div id="loader">
+                        <img src="/src/000-27.gif" alt="Now Loading" />
+                        <p class="mT10">Now Loading</p>
+                    </div>
+                </div>
+            </div>
+            
+            <header class="header">
+                <div class="bg-img"><img src="src/bg6.jpg" alt="Background Image" /></div>
+                <div class="title">
+                    
+                    <h1>Naive To Professional</h1>
+                    <p class="subline">Inspiration for Learning Makeup</p>
+                    
+                </div>
+            </header>
+            <button class="trigger" data-info="Scroll down to enter website"><span>Trigger</span></button>
+            
+            <div class="container content">
+                <nav class="navbar">
+                    <a href="index.html">Home</a>
+                    <a href="">Products</a>
+                    <a href="">Feature</a>
+                    <a href="">About Us</a>
+                </nav>
+                
+                <div class="row"></div>
+                
+                <table class="table container table-condensed table-hover">
+                    <thead>
+                        
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="column_intro">
+                                <h3 class="f_title">產品選擇</h3>
+                                <p class="f_intro">Intoduction of this feature</p>
+                                
+                            </td>
+                            <td class="divided"></td>
+                            <td class="column_pic">
+                                <img id="pro_select_img" src="src/000-27.gif">
+                                <div class="pic_overlay">
+                                    <div class="hover_text">Enter</div>
+                                </div>
+                            </td>
+                        </tr>
+                        
+                        <div class="col"></div>
+                        
+                        <tr>
+                            <td class="column_pic">
+                                <div class="pic_overlay">
+                                    <div class="hover_text">Enter</div>
+                                </div>
+                            </td>
+                            
+                            <td class="divided"></td>
+                            
+                            <td class="column_intro">
+                                <h3 class="f_title">辨識推薦</h3>
+                                <p class="f_intro"></p>
+                            </td>
+                        </tr>
+                        
+                        
+                    </tbody>
+                </table>
+                
+                <div class="fleft">
+					<p>In this example we use a gutter of 5, stack the items with a slight offset, and expand them with a slight random angle/left values. Each item will have a different animation delay.</p>
+				</div>
+				<div class="fleft">
+					<select id="cd-dropdown" class="cd-select">
+						<option value="-1" selected>Choose a network to add</option>
+						<option value="1" class="icon-google-plus">Google Plus</option>
+						<option value="2" class="icon-facebook">Facebook</option>
+						<option value="3" class="icon-twitter">Twitter</option>
+						<option value="4" class="icon-github">GitHub</option>
+					</select>
+				</div>
+                
+                
+            </div>
+            
+        </div><!-- /container -->
+        
+        <script src="js/classie.js"></script>
+        <script src="js/ArticleLoadingEffects.js" onscroll="scrolling()"></script> 
+        
+        
+        <!-- Testing for dropdown effects-->
+        <script type="text/javascript" src="js/jquery.dropdown.js"></script>
+		<script type="text/javascript">
+			
+			$( function() {
+				
+				$( '#cd-dropdown' ).dropdown( {
+					gutter : 5,
+					delay : 100,
+					random : true
+				} );
+			});
+		</script>
+        
+        <!-- End Dropdown -->
+
+        
+        
+           
+        
+        
+                
+                
+                
+                
+    </body>
+
+    
+</html>
